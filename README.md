@@ -48,12 +48,13 @@ lib/
 1. Clone repository ini
 ```bash
 git clone https://github.com/username/imperial-article.git
-cd imperial-article
+cd flutter_top_headlines_apps
 ```
 ## IMPORTANT - Environment Setup
 1. Di dalam project ada file dev.env
 2. Rename dev.env menjadi .env
 3. Konfigurasi sesuai dengan API Key punya anda
+4. Setelah rename dev.env → .env lakukan flutter clean && flutter pub get, kemudian langsung flutter run
 ```bash
 Examaple :
 BASE_URL=ttps://newsapi.org/v2/
@@ -65,9 +66,7 @@ API_KEY=your_api_key_here
 flutter run
 ```
 
-Setelah rename dev.env → .env dan flutter clean && flutter pub get, langsung flutter run
-
-## PS
+## Tambahan
 Sorry, for now I am using the API from the US because there is no data “Top Headlines” for Indonesia. Here is a screenshot from the website newsapi.org/v2/
 
 ## Response API with US code
