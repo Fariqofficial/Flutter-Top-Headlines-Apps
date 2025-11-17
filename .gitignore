@@ -1,0 +1,41 @@
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flavor*
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Android
+android/.gradle
+android/app/build/
+android/local.properties
+android/gradle/
+android/gradlew
+android/gradlew.bat
+android/.idea/workspace.xml
+android/.idea/libraries
+android/key.properties
+
+# iOS
+ios/.symlinks/
+ios/Pods/
+ios/.xcworkspace
+ios/Podfile.lock
+
+# Environment
+.env                # JANGAN pernah commit .env asli!
+.env.local
+.env.*.local
+
+# Mac
+.DS_Store
+
+# VS Code
+*.log
