@@ -1,7 +1,6 @@
 ## Features
 - Google Sign-In with Firebase Auth
-- Clean Architecture
-- Offline-first user cache (SQFLite)
+- Offline-reader with SQFLite
 - Modern UI with GetX state management
 - Fully typed with strict null-safety
 
@@ -54,6 +53,12 @@ cd imperial-article
 ## IMPORTANT - Environment Setup
 1. Di dalam project ada file dev.env
 2. Rename dev.env menjadi .env
+3. Konfigurasi sesuai dengan API Key punya anda
+```bash
+Examaple :
+BASE_URL=ttps://newsapi.org/v2/
+API_KEY=your_api_key_here
+```
 
 ## How To Run
 ```bash
@@ -66,10 +71,12 @@ Setelah rename dev.env → .env dan flutter clean && flutter pub get, langsung f
 Sorry, for now I am using the API from the US because there is no data “Top Headlines” for Indonesia. Here is a screenshot from the website newsapi.org/v2/
 
 ## Response API with US code
-<img width="1440" height="753" alt="result api us" src="https://github.com/user-attachments/assets/38337275-aab8-4786-8a39-50c889ddae69" />
+<img width="2880" height="1506" alt="result api us (1)" src="https://github.com/user-attachments/assets/00beaf21-4b1a-4082-af6a-c66a74481b4b" />
+
 
 ## Response API with ID code
-<img width="1440" height="383" alt="result api id" src="https://github.com/user-attachments/assets/7a75c699-bbc5-4373-b3d8-1ee9833056d5" />
+<img width="2880" height="766" alt="result api id (1)" src="https://github.com/user-attachments/assets/29759284-f3cb-4b03-bfca-e5104e872c62" />
+
 
 
 
