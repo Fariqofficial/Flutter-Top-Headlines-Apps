@@ -40,6 +40,7 @@ lib/
 │       ├   ├── screen/
 │       ├   ├── controller/
 │       ├   ├── widgets/
+│   └── widgets (global widgets)/
 └── injection.dart
 └── main.dart
 ```
