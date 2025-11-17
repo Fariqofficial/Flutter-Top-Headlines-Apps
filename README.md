@@ -63,7 +63,7 @@ flutter run
 Setelah rename dev.env → .env dan flutter clean && flutter pub get, langsung flutter run
 
 ## PS
-Sorry, for now I am using the API from the US because there is no data for “Top Headlines” for Indonesia. Here is a screenshot from the website newsapi.org/v2/
+Sorry, for now I am using the API from the US because there is no data “Top Headlines” for Indonesia. Here is a screenshot from the website newsapi.org/v2/
 
 ## Response API with US code
 <img width="1440" height="753" alt="result api us" src="https://github.com/user-attachments/assets/38337275-aab8-4786-8a39-50c889ddae69" />
